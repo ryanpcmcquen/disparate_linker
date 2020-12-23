@@ -3,7 +3,7 @@
 (() => {
     const runMe = `
 (() => {
-    const dotcomToCraft = {
+    const disparateLinker = {
         config: {
             dotcomUrl: "",
             craftUrl: "",
