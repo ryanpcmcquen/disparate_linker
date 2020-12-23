@@ -1,4 +1,4 @@
-# Dotcom to Craft
+# Disparate Linker
 
 Click to insert links to Craft from blades.
 
