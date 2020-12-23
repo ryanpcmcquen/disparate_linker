@@ -5,8 +5,8 @@
 (() => {
     const dotcomToCraft = {
         config: {
-            dotcomUrl: "https://www.funko.com",
-            craftUrl: "https://craft-prod.funko.com",
+            dotcomUrl: "",
+            craftUrl: "",
         },
     };
     let fetchPath = window.location.pathname;
