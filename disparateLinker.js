@@ -5,7 +5,7 @@
 (() => {
     const disparateLinker = {
         config: {
-            dotcomUrl: "",
+            frontEndUrl: "",
             craftUrl: "",
         },
     };
@@ -14,7 +14,7 @@
         fetchPath = "/homepage";
     }
     const result = fetch(
-        dotcomToCraft.config.dotcomUrl + "/api/craft/pages" + fetchPath
+        disparateLinker.config.frontEndUrl + "/api/craft/pages" + fetchPath
     );
     result
         .then((response) => {
@@ -31,7 +31,7 @@
                     '<a style="text-align: center; width: 100vw; display: block; background-color: #E5422B; color: #FFFFFF;" target="craft_' +
                     Date.now() +
                     '" rel="noopener noreferrer nofollow" href="' +
-                    dotcomToCraft.config.craftUrl +
+                    disparateLinker.config.craftUrl +
                     "/admin/edit/" +
                     bladeSlugs[bladeSlug] +
                     '">↓ Edit in Craft ↓</a>' +

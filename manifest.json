@@ -1,16 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "dotcomToCraft",
+    "name": "disparateLinker",
     "description": "Click to insert links to Craft from blades.",
     "version": "0.1.0",
     "permissions": ["activeTab"],
     "browser_action": {
         "default_icon": {
-            "512": "dotcomToCraft.png"
+            "512": "disparateLinker.png"
         }
     },
     "background": {
         "persistent": false,
-        "scripts": ["dotcomToCraft.js"]
+        "scripts": ["disparateLinker.js"]
     }
 }

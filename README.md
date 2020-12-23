@@ -4,8 +4,8 @@ Click to insert links to Craft from blades.
 
 ## Demo:
 
-![Demo](dotcom_to_craft_extension.gif)
+![Demo](disparate_linker_extension.gif)
 
 ## Installation:
 
-![Installation](install_dotcom_to_craft_extension.gif)
+![Installation](install_disparate_linker_extension.gif)
